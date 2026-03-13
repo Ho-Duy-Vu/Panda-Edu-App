@@ -1,0 +1,7 @@
+# Python packages for image enhancement
+rembg
+Pillow
+pillow-avif-plugin
+opencv-python-headless
+numpy
+

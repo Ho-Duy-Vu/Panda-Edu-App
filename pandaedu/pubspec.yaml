@@ -1,0 +1,63 @@
+name: pandaedu
+description: "PandaEdu - Voice Flashcard App với Speech-to-Text"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # State Management
+  provider: ^6.1.1
+
+  # Storage
+  shared_preferences: ^2.2.2
+  path_provider: ^2.1.1
+
+  # Speech-to-Text
+  speech_to_text: ^7.0.0
+  
+  # Text-to-Speech
+  flutter_tts: ^4.2.0
+  
+  # Audio Playback (for flashcard audio)
+  audioplayers: ^5.2.1
+
+  # Permissions
+  permission_handler: ^11.1.0
+
+  # Utilities
+  equatable: ^2.0.5
+  uuid: ^4.2.2
+  intl: ^0.20.2
+
+  # File Operations
+  file_picker: ^8.1.4
+
+  # Icons
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+  uses-material-design: true
+  generate: true
+
+  assets:
+    - assets/images/
+
